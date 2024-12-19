@@ -40,6 +40,9 @@
             </div>
 
             <div class="col-xs-12 col-md-4 aam-sidebar">
+                <p class="aam-notification">
+                    <strong>AAM version 7 is coming soon!</strong> Please check <a href="https://aamportal.com/announcement/aam7" target="_blank">this article for details</a>.
+                </p>
                 <?php if (AAM_Core_Console::count() && current_user_can('aam_show_notifications')) { ?>
                     <div class="metabox-holder shared-metabox aam-notification-metabox">
                         <div class="postbox">
@@ -89,7 +92,7 @@
                                     </a>
                                 <?php } ?>
                                 <?php if (current_user_can('aam_view_help_btn')) { ?>
-                                    <a href="https://aamportal.com/support?ref=plugin" target="_blank" title="Documentation">
+                                    <a href="https://aamportal.com/documentation?ref=plugin" target="_blank" title="Documentation">
                                         <i class="icon-help-circled"></i>
                                         <span><?php echo __('Docs', AAM_KEY); ?></span>
                                     </a>
@@ -235,11 +238,11 @@
                             <div class="aam-postbox-inside text-center">
                                 <p class="text-larger aam-info text-left">
                                     <strong>Need help interpreting your security scan report and identifying the next steps to address critical issues?</strong>
-                                    Email us your report at <a href="mailto:support@aamplugin.com">support@aamplugin.com</a>, and we'll schedule a video consultation to guide you.
+                                    Contact us and we'll schedule a video consultation to guide you.
                                     Please note, this is a paid service, and we will send an invoice prior to the session.
                                 </p>
                                 <a href="#" class="btn btn-info btn-block download-latest-report""><?php echo __('Download Latest Report', AAM_KEY); ?></a>
-                                <a href="mailto:support@aamplugin.com" class="btn btn-primary btn-block"><?php echo __('Contact Us', AAM_KEY); ?></a>
+                                <a href="https://aamportal.com/contact-us" target="_blank" class="btn btn-primary btn-block"><?php echo __('Contact Us', AAM_KEY); ?></a>
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,7 @@ Tags: security, access governance, user roles, restricted content, api security
 Requires at least: 5.8.0
 Requires PHP: 5.6.0
 Tested up to: 7.1.0
-Stable tag: 7.1.3
+Stable tag: 7.1.4
 
 Access Governance for WordPress. Control roles, users, content, admin areas, and APIs to prevent broken access controls and excessive privileges.
 

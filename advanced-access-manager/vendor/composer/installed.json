@@ -331,6 +331,6 @@
             "install-path": "../vectorface/whip"
         }
     ],
-    "dev": true,
+    "dev": false,
     "dev-package-names": []
 }
